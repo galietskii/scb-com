@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header {
+    background: #222222;
+}
+.header__menu__img-close {
+    display: none;
+}
+.header__icon {
+    margin-left: 12px;
+}
