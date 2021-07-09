@@ -9,10 +9,12 @@
 }
 .header {
     background: #222222;
+    padding: 13px 0;
 }
 .header__menu__img-close {
     display: none;
 }
 .header__icon {
     margin-left: 12px;
+    vertical-align: middle;
 }
