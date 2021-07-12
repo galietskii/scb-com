@@ -3,13 +3,24 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     max-width: 1240px;
     margin: 0 auto;
 }
+li {
+    list-style: none;
+    text-decoration: none;
+}
 .header {
     background: #222222;
     padding: 13px 0;
+}
+.header__flex-menu {
+    display: flex;
+    justify-content: space-between;
 }
 .header__menu__img-close {
     display: none;
@@ -17,4 +28,101 @@
 .header__icon {
     margin-left: 12px;
     vertical-align: middle;
+}
+.login {
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.subscribe {
+    padding: 6px 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+/* NAVIGATION BLOCK */
+.nav {
+    padding: 14px 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+.nav__menu {
+    display: flex;
+}
+.list {
+    margin-right: 24px;
+}
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #222222;
+}
+.link__hover::after {
+    content: url(../img/nav__down.svg);
+    margin-left: 9px;
+    vertical-align: middle;
+}
+.nav__flex-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__search {
+    margin-right: 12px;
+}
+.header__window-menu {
+    position: absolute;
+    top: 59px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.355028);
+    border-radius: 4px;
+}
+
+.header__item-list {
+    background: #FFFFFF;
+    padding: 8px;
+}
+.header__items {
+    background: transparent;
+    border-radius: 4px;
+    padding: 12px 37px 9px 10px;
+    cursor: pointer;
+}
+.header__items:hover {
+    background: rgba(0, 0, 0, 0.06);
+}
+.header__items img {
+    display: inline-block;
+    vertical-align: top;
+}
+.header__about__it {
+    display: inline-block;
+    margin-left: 10px;
+}
+.header__item-list  h1 {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222222;
+}
+.header__item-list p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    margin-top: 2px;
 }
