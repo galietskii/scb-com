@@ -136,3 +136,12 @@ li {
     color: #999999;
     margin-top: 2px;
 }
+/* MAIN BLOCK EDIT */
+.title__edit {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 24px;
+}
