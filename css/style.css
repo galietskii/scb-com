@@ -286,3 +286,23 @@ li {
     display: flex;
     justify-content: space-between;
 }
+.records__submenu {
+    position: absolute;
+    margin-top: 37px;
+    padding-left: 24px;
+}
+.records__sublist {
+    list-style: outside;
+    margin-bottom: 16px;
+}
+.records__sublink {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.records__time {
+    color: #444444;
+    margin-right: 10px;
+}
