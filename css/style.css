@@ -302,7 +302,11 @@ li {
     line-height: 19px;
     color: #000000;
 }
+.records__sublink:hover {
+    text-decoration: underline;
+}
 .records__time {
     color: #444444;
     margin-right: 10px;
+
 }
