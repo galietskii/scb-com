@@ -243,3 +243,46 @@ li {
     font-size: 14px;
     line-height: 16px;
 }
+/* RECORDS BLOCK  */
+.records__flex-menu {
+    width: 840px;
+    margin-top: 50px;
+    background: #FBFBFE;
+    border: 1px solid #EAEEF2;
+    border-radius: 2px;
+}
+.records__menu {
+    display: flex;
+    padding: 24px;
+}
+.records__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 24px;
+}
+.records__line {
+    border-bottom: 5px solid #8D8DF8;
+    padding-bottom: 8px;
+}
+.records__discussed {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #777777;
+}
+.records__menu-close {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+    margin: 24px;
+}
+.records__flex-menu {
+    display: flex;
+    justify-content: space-between;
+}
