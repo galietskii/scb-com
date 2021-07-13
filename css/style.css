@@ -222,3 +222,24 @@ li {
 .main__button-read img {
     vertical-align: middle;
 }
+/* ARTICLES BLOCK    */
+.article__grid-item {
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-column-gap: 10px;
+   grid-row-gap: 1em;
+}
+.article__news-card {
+    width: 294px;
+    margin-top: 20px;
+}
+.articles__history {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.article__company {
+    font-size: 14px;
+    line-height: 16px;
+}
