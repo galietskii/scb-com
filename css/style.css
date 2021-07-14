@@ -381,4 +381,14 @@ li {
     line-height: 16px;
     color: #888888;
     margin-top: 8px;
+    margin-bottom: 29px;
+}
+.aside-news__discussion {
+    margin-top: 36px;
+}
+.aside-news__item {
+    background: #FFFFFF;
+    border: 1px solid #EAEEF2;
+    box-sizing: border-box;
+    padding: 18px;
 }
