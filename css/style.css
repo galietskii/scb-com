@@ -140,7 +140,7 @@ li {
     margin-top: 2px;
 }
 /* MAIN BLOCK EDIT */
-.main__title__edit {
+.section__main__title__edit {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -149,30 +149,30 @@ li {
     margin-top: 24px;
     margin-bottom: 15px;
 }
-.main__block-news {
+.section__main__block-news {
     display: flex;
     justify-content: space-between;
 }
-.main__image-block{
+.section__main__image-block{
     background-image: url(../img/main-news.png);
     width: 800px;
     height: 400px;
 }
-.main__right-news {
+.section__main__right-news {
     vertical-align: top;
     width: 416px;
 }
-.main__text-news{
+.section__main__text-news{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #444444;
 }
-.main__text-news:hover {
+.section__main__text-news:hover {
     text-decoration-line: underline;
 }
-.main__text-history {
+.section__main__text-history {
     display: block;
     font-style: normal;
     font-weight: bold;
@@ -182,20 +182,20 @@ li {
     margin-top: 16px;
     margin-bottom: 12px;
 }
-.main__text-history:hover {
+.section__main__text-history:hover {
     text-decoration-line: underline;
 }
-.main__text-company {
+.section__main__text-company {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #000000;
 }
-.main__text-company:hover {
+.section__main__text-company:hover {
     text-decoration-line: underline;
 }
-.main__right-news p{
+.section__main__right-news p{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -204,11 +204,11 @@ li {
     margin-top: 10px;
     margin-bottom: 16px;
 }
-.main__right-news img{
+.section__main__right-news img{
     margin: 0 10px 0 10px;
     vertical-align: middle;
 }
-.main__button-read {
+.section__main__button-read {
     background: #FFFFFF;
     border: 2px solid #000000;
     box-sizing: border-box;
@@ -219,9 +219,20 @@ li {
     line-height: 19px;
     color: #000000;
 }
-.main__button-read img {
+.section__main__button-read img {
     vertical-align: middle;
 }
+/* FLEX MAIN AND RIGHT BLOCK */
+.main-rightblock {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+
+/*  */
 /* ARTICLES BLOCK    */
 .article__grid-item {
     display: grid;
@@ -244,12 +255,18 @@ li {
     line-height: 16px;
 }
 /* RECORDS BLOCK  */
-.records__flex-menu {
+.records__item-menu {
+    position: relative;
     width: 840px;
+    height: auto;
     margin-top: 50px;
     background: #FBFBFE;
     border: 1px solid #EAEEF2;
     border-radius: 2px;
+}
+.records__flex-menu {
+    display: flex;
+    justify-content: space-between;
 }
 .records__menu {
     display: flex;
@@ -281,18 +298,16 @@ li {
     line-height: 16px;
     color: #777777;
     margin: 24px;
-}
-.records__flex-menu {
-    display: flex;
-    justify-content: space-between;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
 .records__submenu {
-    position: absolute;
-    margin-top: 37px;
-    padding-left: 24px;
+    margin-top: 24px;
+    padding-left: 40px;
 }
 .records__sublist {
-    list-style: outside;
+    list-style: square;
     margin-bottom: 16px;
 }
 .records__sublink {
@@ -309,4 +324,61 @@ li {
     color: #444444;
     margin-right: 10px;
 
+}
+.records__close {
+    display: none;
+}
+.records__more-menu {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6464E8;
+    margin-top: 18px;
+}
+.records__more-menu::after {
+    content: url(../img/records-down.svg);
+    vertical-align: middle;
+    margin-left: 9px;
+}
+/* ASIDE-NEWS BLOCK */
+.right__block {
+    margin-top: 42px;
+}
+.aside-news__item-event {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.aside-news__item-event img{
+    margin-right: 16px;
+}
+.aside-news__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.aside-news__text {
+    width: 264px;
+}
+.aside-news__text a {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+
+    color: #000000
+}
+.aside-news__text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #888888;
+    margin-top: 8px;
 }
