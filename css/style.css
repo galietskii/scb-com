@@ -520,3 +520,10 @@ li {
     height: 4px;
     vertical-align: middle;
 }
+
+/* POPULAR TOPICS */
+.topic__main {
+    background-image: url(../img/topic__bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
