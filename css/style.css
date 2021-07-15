@@ -303,7 +303,7 @@ li {
     cursor: pointer;
 }
 .records__submenu {
-    margin-top: 24px;
+    margin: 24px 0;
     padding-left: 40px;
 }
 .records__sublist {
@@ -370,9 +370,10 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    text-decoration-line: underline;
-
     color: #000000
+}
+.aside-news__text a:hover {
+    text-decoration-line: underline;
 }
 .aside-news__text p{
     font-style: normal;
@@ -448,5 +449,42 @@ li {
     padding-bottom: 31px;
 }
 .aside__named:hover {
+    text-decoration-line: underline;
+}
+/* NEWS BLOCK */
+
+.news__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin: 28px 0;
+}
+.news__about {
+    width: 569px;
+}
+.news__block {
+    width: 255px;
+    height: 190px;
+}
+.news__text-news {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.news__text-news:hover {
+    text-decoration-line: underline;
+}
+.news__title-news {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.news__title-news:hover {
     text-decoration-line: underline;
 }
