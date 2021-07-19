@@ -1728,6 +1728,9 @@ li {
     .records__link {
         display: none;
     }
+    .last {
+        margin-left: 14px;
+    }
     .records__line {
         display: block;
         font-size: 14px;
