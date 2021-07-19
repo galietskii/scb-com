@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+     <header class="header">
         <div class="container">
             <div class="header__flex-menu">
                 <div class="header__menu">
@@ -51,6 +51,11 @@
                     <img class="header__icon" src="img/icon.svg" alt="icon">
                     
                 </div>
+                <div class="header__openClose-menu header__mobile-menu">
+                    <img class="header__search" src="img/header__search-mobile.svg" alt="">
+                    <img class="header__menu__img-open" src="img/header__menu-mobile.svg" alt="menu__open">
+                   
+               </div>
                 <div class="header__login">
                     <button class="login">Войти</button>
                     <button class="subscribe">Подписаться</button>
@@ -58,16 +63,30 @@
             </div>
         </div>
     </header>
-    <nav class="nav">
+     <nav class="nav">
         <div class="container">
             <div class="nav__flex-menu">
                 <ul class="nav__menu">
-                    <li class="list"><a href="#" class="link link__hover">Новости</a></li>
-                    <li class="list"><a href="#" class="link link__hover">Статьи</a></li>
-                    <li class="list"><a href="#" class="link link__hover">Игры</a></li>
-                    <li class="list"><a href="#" class="link link__hover">Обзоры</a></li>
-                    <li class="list"><a href="#" class="link">Блоги</a></li>
-                    <li class="list"><a href="#" class="link">Каталог</a></li>
+                    <li class="list"><a href="#" class="link link__hover">
+                        <object type="image/svg+xml" data="img/right.svg" class="line-right line__hover"></object>
+                        Новости</a>
+</li>
+<ul class="sub-menu">
+    <li class="sub-list"><a href="#" class="sub-link">Категория новостей 1</a></li>
+    <li class="sub-list"><a href="#" class="sub-link">Категория новостей 2</a></li>
+    <li class="sub-list"><a href="#" class="sub-link">Категория новостей 3</a></li>
+    <li class="sub-list"><a href="#" class="sub-link">Категория новостей 3</a></li>
+</ul>
+                    <li class="list"><a href="#" class="link"><object type="image/svg+xml" data="img/right.svg" class="line-right"></object>
+Статьи</a></li>
+                    <li class="list"><a href="#" class="link"><object type="image/svg+xml" data="img/right.svg" class="line-right"></object>
+Игры</a></li>
+                    <li class="list"><a href="#" class="link"><object type="image/svg+xml" data="img/right.svg" class="line-right"></object>
+Обзоры</a></li>
+                    <li class="list"><a href="#" class="link"><object type="image/svg+xml" data="img/right.svg" class="line-right"></object>
+Блоги</a></li>
+                    <li class="list"><a href="#" class="link"><object type="image/svg+xml" data="img/right.svg" class="line-right"></object>
+Каталог</a></li>
                 </ul>
                 <div class="nav__search">
                     <img class="nav__search" src="img/nav__search.svg" alt="search">
@@ -75,12 +94,12 @@
                 </div>
           </div>
         </div>
-    </nav>
+    </nav> 
     <section class="section__main">
-        <div class="container">
+        <div class="container container__all">
             <h2 class="section__main__title__edit">Выбор редакции h2</h2>
             <div class="section__main__block-news">
-                <div class="section__main__image-block"></div>
+                <img class="section__main__image-block" src="img/photo.svg">
                 <div class="section__main__right-news">
                     <a href="#" class="section__main__text-news">Новости Hardware</a>
                     <a href="#" class="section__main__text-history">Историческое событие: Samsung выпустила в России смартфон на основе SoC Snapdragon 865</a>
@@ -91,46 +110,48 @@
             </div>
         </div>
     </section>
+    
     <article class="article">
-        <div class="container">
+        <div class="container container__all">
             <div class="article__grid-item">
                 <div class="article__news-card">
                     <img width="100%" src="img/articles/mountains.png" alt="mountains">
                     <a class="section__main__text-news" href="#">Новости Hardware</a>
-                    <a class="section__main__text-history articles__history" href="#">Историческое событие: Samsung выпустила в России смартфон на основе SoC Snapdragon 865</a>
+                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событие: Samsung выпустила в России смартфон на основе SoC Snapdragon 865</a>
                     <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
                 </div>
                 <div class="article__news-card">
                     <img width="100%" src="img/articles/mountains.png" alt="mountains">
                     <a class="section__main__text-news" href="#">Новости Software</a>
-                    <a class="section__main__text-history articles__history" href="#">Историческое событие: Samsung выпустила в России смартфон на</a>
+                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событие: Samsung выпустила в России смартфон на</a>
                     <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
                 </div>
                 <div class="article__news-card">
                     <img width="100%" src="img/articles/mountains.png" alt="mountains">
                     <a class="section__main__text-news" href="#">Новости Hardware</a>
-                    <a class="section__main__text-history articles__history" href="#">Историческое событие: Samsung выпустила</a>
+                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событие: Samsung выпустила</a>
                     <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
                 </div>
                 <div class="article__news-card">
                     <img width="100%" src="img/articles/mountains.png" alt="mountains">
                     <a class="section__main__text-news" href="#">Новости Игр</a>
-                    <a class="section__main__text-history articles__history" href="#">Историческое событи!</a>
+                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событи!</a>
                     <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
                 </div>
             </div>
         </div>
     </article>
+    
     <section class="main-rightblock">
         <main class="main">
             <section class="records">
-                <div class="container">
+                <div class="main-container">
                     <div class="records__item-menu">
                          <ul class="records__flex-menu">
                              <div class="records__menu">
                                  <li class="records__list"><a href="#" class="records__link records__line">Последние записи</a></li>
-                                 <li class="records__list"><a href="#" class="records__link">Популярные записи</a></li>
-                                 <li class="records__list"><a href="#" class="records__link records__discussed">Обсуждаемое</a></li>
+                                 <li class="records__list"><a href="#" class="records__link records__lines">Популярные записи</a></li>
+                                 <li class="records__list"><a href="#" class="records__link records__lines records__discussed">Обсуждаемое</a></li>
                              </div>
                              <button class="records__menu-close">[ Свернуть ]</button>
                         </ul>
@@ -147,11 +168,24 @@
                     </div>
                 </div>
             </section>
+           
             <section class="news">
-                <div class="container">
+                <div class="news__container">
                     <h2 class="news__title">Все Новости h2</h2>
                     <div class="news__block">
-                        <img src="img/news/news__mask.svg" alt="mask">
+                        <img class="news__mask" src="img/news/news__mask.svg" alt="mask">
+                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
+                        <div class="news__about">
+                            <a class="news__text-news" href="#">Новости Hardware</a>
+                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
+                            <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                        </div>
+                        <p class="news__time news__time-mobile">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                    </div>
+                    <div class="news__block">
+                        <img  class="news__mask" src="img/news/news__mask2.svg" alt="mask">
+                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
                         <div class="news__about">
                             <a class="news__text-news" href="#">Новости Hardware</a>
                             <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
@@ -160,7 +194,8 @@
                         </div>
                     </div>
                     <div class="news__block">
-                        <img src="img/news/news__mask2.svg" alt="mask">
+                        <img  class="news__mask" src="img/news/news__mask3.svg" alt="mask">
+                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
                         <div class="news__about">
                             <a class="news__text-news" href="#">Новости Hardware</a>
                             <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
@@ -169,7 +204,8 @@
                         </div>
                     </div>
                     <div class="news__block">
-                        <img src="img/news/news__mask3.svg" alt="mask">
+                        <img  class="news__mask" src="img/news/news__mask4.svg" alt="mask">
+                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
                         <div class="news__about">
                             <a class="news__text-news" href="#">Новости Hardware</a>
                             <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
@@ -177,8 +213,8 @@
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
-                    <div class="news__block">
-                        <img src="img/news/news__mask4.svg" alt="mask">
+                    <div class="news__block news__block-mobile">
+                        <img  class="news__mask" src="img/news/news__mask5.svg" alt="mask">
                         <div class="news__about">
                             <a class="news__text-news" href="#">Новости Hardware</a>
                             <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
@@ -186,8 +222,8 @@
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
-                    <div class="news__block">
-                        <img src="img/news/news__mask5.svg" alt="mask">
+                    <div class="news__block news__block-mobile">
+                        <img  class="news__mask" src="img/news/news__mask6.svg" alt="mask">
                         <div class="news__about">
                             <a class="news__text-news" href="#">Новости Hardware</a>
                             <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
@@ -195,8 +231,8 @@
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
-                    <div class="news__block">
-                        <img src="img/news/news__mask6.svg" alt="mask">
+                    <div class="news__block news__block-mobile">
+                        <img  class="news__mask" src="img/news/news__mask7.svg" alt="mask">
                         <div class="news__about">
                             <a class="news__text-news" href="#">Новости Hardware</a>
                             <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
@@ -204,17 +240,8 @@
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
-                    <div class="news__block">
-                        <img src="img/news/news__mask7.svg" alt="mask">
-                        <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
-                            <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
-                            <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
-                        </div>
-                    </div>
-                    <div class="news__block">
-                        <img src="img/news/news__mask8.svg" alt="mask">
+                    <div class="news__block news__block-mobile">
+                        <img  class="news__mask" src="img/news/news__mask8.svg" alt="mask">
                         <div class="news__about">
                             <a class="news__text-news" href="#">Новости Hardware</a>
                             <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
@@ -225,14 +252,30 @@
                 </div>
             </section>
             <section class="topic">
-                <div class="container">
-                    <div class="topic__main">
-                        
+                <div class="topic__container">
+                    <div class="topic__shadow">
+                        <div class="topic__main">
+                            <button class="topic__button">Популярная тема</button>
+                            <h2>Новости Apple</h2>
+                            <ul class="topic__menu">
+                                <li class="topic__list"><a href="#" class="topic__link">Сэм Хьюстон одержал первую победу в чемпионате FCS</a></li>
+                                <li class="topic__list"><a href="#" class="topic__link">Что произошло в футболе сегодня: 16 мая 2021 года</a></li>
+                                <li class="topic__list"><a href="#" class="topic__link">"Барселона" выигрывает женскую Лигу чемпионов после победы над "Челси" 4: 0</a></li>
+                                <li class="topic__list"><a href="#" class="topic__link">Кайри Ирвинг из Nets присоединился к клубу 50-40-90, стал девятым игроком НБА, достиг …</a></li>
+                                <li class="topic__list"><a href="#" class="topic__link">Сэм Хьюстон одержал первую победу в чемпионате FCS</a></li>
+                                <li class="topic__list"><a href="#" class="topic__link">Что произошло в футболе сегодня: 16 мая 2021 года</a></li>
+                                <li class="topic__list"><a href="#" class="topic__link">"Барселона" выигрывает женскую Лигу чемпионов после победы над "Челси" 4: 0</a></li>
+                                <div class="topic__link-more">
+                                    <a href="#">Посмотреть все статьи по теме</a>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
-        </main>
-        <section class="right__block">
+        </main> 
+
+          <section class="right__block">
             <aside class="aside-news">
                 <div class="container">
                     <div class="aside-news__first-block">
@@ -298,12 +341,634 @@
                                 <a class="aside__named" href="#">Рецензия на политический сериал!</a>
                             </div>
                         </div>
-                        <h2 class="aside-news__title-popular">Пупулярные темы h2</h2>
+                        <h2 class="aside-news__title-popular">Популярные темы h2</h2>
+                        <div class="aside__buttons">
+                            <button>iOS 13</button>
+                            <button>MWC 2021</button>
+                            <button>iOS 15</button>
+                            <button>AirPods 3</button>
+                            <button>Iphone 13</button>
+                            <button>Apple M2 Chip Long Text Title</button>
+                            <button>QW</button>
+                            <button>AirPods 2</button>
+                        </div>
+                        <h2 class="aside-news__title-popular">Подписаться на рассылку h2</h2>
+                        <div class="aside__subscribe">
+                            <h5>Раз в неделю, без спама</h5>
+                            <p>Подпишитесь на нашу рассылку и будьте в курсе самых интересных новостей.</p>
+                            <div class="aside__search-block">
+                                <input type="text" placeholder='Ваш E-mail'>
+                                <img src="img/aside/send_black_24dp.svg" alt="send">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </aside>
-        </section>
+        </section> 
+    </section> 
+    
+    <section class="intro">
+        <div class="container">
+            <div class="intro__cards">
+                <div class="intro__card">
+                    <div class="intro__images">
+                        <a class="image__intros" href="#"><img width="100%" src="img/intro/intro1.svg" alt="photo man"></a>
+                        <a href="#" class="intro__text-news">Новости Hardware</a>
+                    </div>
+                    <div class="intro__news-photo">
+                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
+                        <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                    </div>
+                    <p class="news__time intro__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                </div>
+                <div class="intro__card">
+                    <div class="intro__images">
+                        <a class="image__intros" href="#"><img width="100%" src="img/intro/intro2.svg" alt="photo man"></a>
+                        <a href="#" class="intro__text-news">Новости Hardware</a>
+                    </div>
+                    <div class="intro__news-photo">
+                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
+                        <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                    </div>
+                    <p class="news__time intro__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                </div>
+                <div class="intro__card intro__card-mobile">
+                    <div class="intro__images">
+                        <a class="image__intros" href="#"><img width="100%" src="img/intro/intro3.svg" alt="photo man"></a>
+                        <a href="#" class="intro__text-news">Новости Hardware</a>
+                    </div>
+                    <div class="intro__news-photo">
+                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
+                        <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                    </div>
+                    <p class="news__time intro__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                </div>
+                <div class="intro__card intro__card-mobile">
+                    <div class="intro__images">
+                        <a class="image__intros" href="#"><img width="100%" src="img/intro/intro4.svg" alt="photo man"></a>
+                        <a href="#" class="intro__text-news">Новости Hardware</a>
+                    </div>
+                    <div class="intro__news-photo">
+                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
+                        <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                    </div>
+                    <p class="news__time intro__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                </div>
+                <div class="intro__card intro__card-mobile">
+                    <div class="intro__images">
+                        <a class="image__intros" href="#"><img width="100%" src="img/intro/intro5.svg" alt="photo man"></a>
+                        <a href="#" class="intro__text-news">Новости Hardware</a>
+                    </div>
+                    <div class="intro__news-photo">
+                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
+                        <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                    </div>
+                    <p class="news__time intro__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                </div>
+                <div class="intro__card intro__card-mobile">
+                    <div class="intro__images">
+                        <a class="image__intros" href="#"><img width="100%" src="img/intro/intro6.svg" alt="photo man"></a>
+                        <a href="#" class="intro__text-news">Новости Hardware</a>
+                    </div>
+                    <div class="intro__news-photo">
+                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
+                        <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                    </div>
+                    <p class="news__time intro__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
+                </div>
+            </div>
+            <ul class="intro__menu-buttons">
+                <li class="intro__list"><a href="#" class="intro__link previous">Предыдущая</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">1</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">2</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">3</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">4</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">5</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">6</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">7</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">8</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">8</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">9</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">...</a></li>
+                <li class="intro__list"><a href="#" class="intro__link">487</a></li>
+                <li class="intro__list"><a href="#" class="intro__link next">Следующая</a></li>
+            </ul>
+        </div>
     </section>
+    
+    <section class="all-news">
+        <div class="container">
+            <div class="all-news__flex">
+                <h2 class="">Новости Hardware h2</h2>
+                <a href="#">Все новости категории</a>
+            </div>
+            <div class="all-news__cards">
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news1.svg" alt="">
+                    <a class="all-news__prcs" href="#">Процессоры</a>
+                    <a class="all-news__lesson" href="#">Как экономить воду. Курс РБК и «Осоки Высокой» — урок 6</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news2.svg" alt="">
+                    <a class="all-news__prcs" href="#">Видеокарты</a>
+                    <a class="all-news__lesson" href="#">MediaTek подвергает угрозу лидирующие позиции Qualcomm в смартфонах и планшетах</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news3.svg" alt="">
+                    <a class="all-news__prcs" href="#">Оперативная память</a>
+                    <a class="all-news__lesson" href="#">CES 2014: инновационные технологии от компании MediaTek</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news4.svg" alt="">
+                    <a class="all-news__prcs" href="#">Оперативная память</a>
+                    <a class="all-news__lesson" href="#">Общественности представлено новое поколение жидкостных систем охлаждения от компании QuantaCool</a>
+                </div>
+            </div>
+            <div class="all-news__flex">
+                <h2 class="">Новости Software h2</h2>
+                <a href="#">Все новости категории</a>
+            </div>
+            <div class="all-news__cards">
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news5.svg" alt="">
+                    <a class="all-news__prcs" href="#">Операционные системы</a>
+                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news6.svg" alt="">
+                    <a class="all-news__prcs" href="#">Защита информации</a>
+                    <a class="all-news__lesson" href="#">Общественности представлено новое поколение жидкостных систем охлаждения от компании QuantaCool</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news7.svg" alt="">
+                    <a class="all-news__prcs" href="#">Поисковые системы</a>
+                    <a class="all-news__lesson" href="#">CES 2014: инновационные технологии от компании MediaTek</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news8.svg" alt="">
+                    <a class="all-news__prcs" href="#">Операционные системы</a>
+                    <a class="all-news__lesson" href="#">CES 2014: инновационные технологии от компании MediaTek</a>
+                </div>
+            </div>
+            <div class="all-news__flex">
+                <h2 class="">Новости выставок h2</h2>
+                <a href="#">Все новости категории</a>
+            </div>
+            <div class="all-news__cards">
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news9.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">iOS 9.3 - Night Shift</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news10.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">Магазин Fred Perry. Что в нем можно найти?</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news11.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси!</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news12.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</a>
+                </div>
+            </div>
+            <div class="all-news__flex">
+                <h2 class="">Новые обзоры h2</h2>
+                <a href="#">Все новости категории</a>
+            </div>
+            <div class="all-news__cards">
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news13.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">iOS 9.3 - Night Shift</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news14.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">Магазин Fred Perry. Что в нем можно найти?</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news15.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси!</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news16.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</a>
+                </div>
+            </div>
+            <div class="all-news__flex">
+                <h2 class="">Новые видео h2</h2>
+                <a href="#">Все новости категории</a>
+            </div>
+            <div class="all-news__cards">
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news17.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">iOS 9.3 - Night Shift</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news18.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">Магазин Fred Perry. Что в нем можно найти?</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news19.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси!</a>
+                </div>
+                <div class="all-news__card">
+                    <img width="100%" src="img/all-news/all-news20.svg" alt="">
+                    <a class="all-news__prcs" href="#">CES 2014</a>
+                    <a class="all-news__lesson" href="#">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="videos">
+        <div class="container">
+            <h2 class="videos__title">Видео h2</h2>
+            <div class="videos__news">
+                <div class="videos__left-block">
+                    <div class="videos__line"></div>
+                    <a>Сэм Хьюстон одержал первую победу в чемпионат</a>
+                    <p class="videos__text">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого …</p>
+                    <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров <img src="img/main__oval.svg" alt="oval"><span>Новости Hardware</span></p>
+                </div>
+                <div class="videos__right-block">
+                    <img width="100%" src="img/videos/videos__1.svg" alt="">
+                </div>
+                <p class="videos__time">12 452 <img class="oval" src="img/main__oval.svg" alt="oval"> 18 сентября, 10:49 <img class="oval" src="img/main__oval.svg" alt="oval"><span>Новости Hardware</span></p>
+            </div>
+            <div class="videos__grids">
+                <div class="video__grid-block">
+                    <div class="videos__video">
+                        <img width="100%" height="100%" src="img/videos/video1.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми»</a>
+                    </div>
+                </div>
+                <div class="video__grid-block">
+                    <div class="videos__video">
+                        <img width="100%" src="img/videos/video2.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический!</a>
+                    </div>
+                </div>
+                <div class="video__grid-block">
+                    <div class="videos__video">
+                        <img width="100%" src="img/videos/video3.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический сериал The Comey Rule</a>
+                    </div>
+                </div>
+                <div class="video__grid-block video">
+                    <div class="videos__video">
+                        <img width="100%" src="img/videos/video4.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми»</a>
+                    </div>
+                </div>
+                <div class="video__grid-block video">
+                    <div class="videos__video video">
+                        <img width="100%" src="img/videos/video5.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми»</a>
+                    </div>
+                </div>
+                <div class="video__grid-block video">
+                    <div class="videos__video video">
+                        <img width="100%" src="img/videos/video6.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический!</a>
+                    </div>
+                </div>
+                <div class="video__grid-block video">
+                    <div class="videos__video video">
+                        <img width="100%" src="img/videos/video7.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический сериал The Comey Rule</a>
+                    </div>
+                </div>
+                <div class="video__grid-block video">
+                    <div class="videos__video video">
+                        <img width="100%" src="img/videos/video8.svg" alt="">
+                        <img class="play__button" src="img/videos/video-play.svg" alt="play button">
+                    </div>
+                    <div class="videos__block-link">
+                        <a class="videos__link" href="#">Рецензия на политический!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="videos__button-block">
+                <button class="videos__button">Перейти в раздел «Видео»</button>
+            </div>
+        </div>
+    </section>
+   
+    <section class="last-records">
+        <div class="container">
+            <h2 class="last-records__title">Последние записи в блогах h2</h2>
+            <div class="last-records__grids-blocks">
+                <div class="last-records__block">
+                    <div class="last-records__image">
+                        <div class="last-records__text">
+                            <p>Usernameovi4</p>
+                        </div>
+                    </div>
+                    <p class="last-records__about-text">На что обратить внимание, если собрались дарить инструмент на 23 февраля</p>
+                </div>
+                <div class="last-records__block">
+                    <div class="last-records__image last2">
+                        <div class="last-records__text">
+                            <p>Usernameovi4</p>
+                        </div>
+                    </div>
+                    <p class="last-records__about-text">Обзор гравировальной машинки Ресанта Г-180ЭГ</p>
+                </div>
+                <div class="last-records__block">
+                    <div class="last-records__image last3">
+                        <div class="last-records__text">
+                            <p>Usernameovi4</p>
+                        </div>
+                    </div>
+                    <p class="last-records__about-text">Рецензия на политический сериал The Comey Rule / «Правило Коми»</p>
+                </div>
+                <div class="last-records__block">
+                    <div class="last-records__image last4">
+                        <div class="last-records__text">
+                            <p>Usernameovi4</p>
+                        </div>
+                    </div>
+                    <p class="last-records__about-text">Bloomberg: В ноябре Apple проведет еще одно мероприятие — там анонсируют максимальн …</p>
+                </div>
+                <div class="last-records__block">
+                    <div class="last-records__image last5">
+                        <div class="last-records__text">
+                            <p>Usernameovi4</p>
+                        </div>
+                    </div>
+                    <p class="last-records__about-text">На что обратить внимание, если собрались дарить инструмент на 23 февраля</p>
+                </div>
+            </div>
+            <ul class="last-records__scroll">
+                <li class="last-records__list scroll"></li>
+                <li class="last-records__list"></li>
+                <li class="last-records__list"></li>
+                <li class="last-records__list"></li>
+                <li class="last-records__list"></li>
+            </ul>
+            <div class="videos__button-block">
+                <button class="videos__button">Перейти в раздел «Блоги»</button>
+            </div>
+        </div>
+    </section>
+     
+    <section class="files">
+        <div class="container">
+            <div class="files__expansion-categories">
+                <div class="files__expansion">
+                    <h2>Раширения файлов</h2>
+                    <div class="files__icons-files">
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-1.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-2.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-3.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-4.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-5.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-4.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-1.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-4.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-2.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                        <div class="files__icons">
+                            <img width="100%" src="img/files/file-5.svg" alt="windows">
+                            <p>PDF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="files__categories">
+                    <h2>Категории файлов</h2>
+                    <ul class="files__categories-all">
+                        <li class="files__list"><a href="#" class="files__link">Аудио-файлы</a></li>
+                        <li class="files__list"><a href="#" class="files__link">Видео-файлы</a></li>
+                        <li class="files__list"><a href="#" class="files__link">Рисунки, изображения</a></li>
+                        <li class="files__list"><a href="#" class="files__link">Растровые изображения</a></li>
+                        <li class="files__list"><a href="#" class="files__link">Векторные изображения</a></li>
+                        <li class="files__list"><a href="#" class="files__link">3D-модели, изображения</a></li>
+                        <li class="files__list files__list_last"><a href="#" class="files__link files__ctg">Все категории файлов</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="team">
+        <div class="container">
+            <div class="teams">
+                <h2>Команда авторов h2</h2>
+                <div class="team__item">
+                    <div class="team__grid">
+                        <div class="team__name">
+                            <h3>Василий Пупочкин</h3>
+                            <p>Главный редактор</p>
+                        </div>
+                        <div class="team__name">
+                            <h3>Василий Пупочкин</h3>
+                            <p>Главный редактор</p>
+                        </div>
+                        <div class="team__name">
+                            <h3>Василий Пупочкин</h3>
+                            <p>Главный редактор</p>
+                        </div>
+                        <div class="team__name">
+                            <h3>Василий Пупочкин</h3>
+                            <p>Главный редактор</p>
+                        </div>
+                        <div class="team__name">
+                            <h3>Василий Пупочкин</h3>
+                            <p>Главный редактор</p>
+                        </div>
+                        <div class="team__name">
+                            <h3>Василий Пупочкин</h3>
+                            <p>Главный редактор</p>
+                        </div>
+                        <div class="team__name">
+                            <h3>Василий Пупочкин</h3>
+                            <p>Главный редактор</p>
+                        </div>
+                    </div>
+                    <div class="team__about">
+                        <h4>Команда из 5 авторов, старается что бы вы получали актуальные и точные материалы.</h4>
+                        <p>Мы прикладываем максимум усилий чтобы наши новости отражали реальную ситуацию в мира новых технологий!</p>
+                        <button>Познакомиться с командой авторов</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="post">
+        <div class="container">
+            <div class="post__grid">
+                <div class="post__last-news">
+                    <h3>Последние компьютерные новости h3</h3>
+                    <ul class="post__menu">
+                        <li class="post__list"><a href="#" class="post__link">Главная</a></li>
+                        <img src="img/post/post-right.svg" alt="">
+                        <li class="post__list"><a href="#" class="post__link">Новости IT</a></li>
+                    </ul>
+                    <p>Роботы-газонокосилки похожи на роботы-пылесосы. По крайней мере внешне. Внутри же они сильно отличаются. Газонокосилки используют двигатель, который работает от аккумулятора. Он снабжён режущими лезвиями, базовой станцией, проводом периметра и сенсорами, чтобы устройство не выехало куда не надо. Один конец провода подключён к терминалу на базовой станции. Провод прокладывается вдоль границ вашего!</p>
+                    <h4>Последние компьютерные новости h4</h4>
+                    <img width="100%" src="img/post/post-img.svg" alt="">
+                    <p class="post__text">
+                        Роботы-газонокосилки похожи на роботы-пылесосы. По крайней мере внешне. Внутри же они сильно отличаются. Газонокосилки используют двигатель, который работает от аккумулятора. Он снабжён режущими лезвиями, базовой станцией, проводом периметра и сенсорами, чтобы устройство не выехало куда не надо. Один конец провода подключён к терминалу на базовой станции. Провод прокладывается вдоль границ вашего газона при помощи стоек, наподобие тех, которые применяются при установке палатки. Другой конец провода подключается ко второму терминалу. 
+                       <span>База не только заряжает газонокосилку, но и даёт электрический заряд проводу. Сенсоры на газонокосилке используют заряженный провод, чтобы она двигалась вдоль его границ и возвращалась на базу, когда процесс завершён или когда требуется подзарядка.
+                       </span> 
+                        <span>Роботы-газонокосилки похожи на роботы-пылесосы. По крайней мере внешне. Внутри же они сильно отличаются. Газонокосилки используют двигатель, который работает от аккумулятора. Он снабжён режущими лезвиями, базовой станцией, проводом периметра и сенсорами, чтобы устройство не выехало куда не надо.
+                        </span>
+                    </p>
+                    <div class="post__rating">
+                        <img src="img/post/post__stars.svg" alt="stars">
+                        <p class="post__rating-text">Рейтинг: <span>(4.99, голосов: 108)</span></p>
+                    </div>
+                </div>
+                <div class="post__answers">
+                    <h3>Последние компьютерные новости h3</h3>
+                    <div class="post__answers-menu">
+                        <div class="post__answers-menu__flex">
+                            <a href="#" class="post__answers-link">⚡️ Какие IT новости самые популярные</a>
+                            <img src="img/post/post__down.svg" alt="down">
+                        </div>
+                    </div>
+                    <div class="post__answers-menu">
+                        <div class="post__answers-menu__flex rotate">
+                            <a href="#" class="post__answers-link">🏅 Где смотреть компьютерные новости</a>
+                            <img src="img/post/post__down.svg" alt="down">
+                        </div>
+                        <div class="deployed__block">
+                            <p>Роботы-газонокосилки похожи на роботы-пылесосы. По крайней мере внешне. Внутри же они сильно отличаются. Газонокосилки используют двигатель, который работает от аккумулятора. Он снабжён режущими лезвиями, базовой станцией, проводом периметра и сенсорами, чтобы устройство не выехало куда не надо. Один конец провода подключён к терминалу на базовой станции. </p>
+                        </div>
+                    </div>
+                    <div class="post__answers-menu">
+                        <div class="post__answers-menu__flex">
+                            <a href="#" class="post__answers-link">🎁 Какие разделы сайта QWE наиболее популярные</a>
+                            <img src="img/post/post__down.svg" alt="down">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="before-footer">
+        <div class="container">
+            <div class="before-footer__grid">
+                <div class="before-footer__block">
+                    <ul class="before-footer__menu">
+                        <p class="link-name" href="#">QWEDR</p>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">О сайте</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Команда сайта</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Карта сайта</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Политика конфиденциальности</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Реклама</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="before-footer__block">
+                    <ul class="before-footer__menu">
+                        <p class="link-name" href="#">Популярные категории</p>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Новости hardware</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Новости software</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Компьютерные выставки</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Обзоры</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Статьи</a></li>
+                    </ul>
+                </div>
+                <div class="before-footer__block">
+                    <ul class="before-footer__menu">
+                        <p class="link-name" href="#">Популярные блоги</p>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Компьютерные советы</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Искусственный интеллект</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Компьютерные выставки</a></li>
+                    </ul>
+                </div>
+                <div class="before-footer__block">
+                    <ul class="before-footer__menu">
+                        <p class="link-name" href="#">Другое</p>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Компьютерные советы</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Искусственный интеллект</a></li>
+                        <li class="before-footer__list"><a class="before-footer__link" href="#">Компьютерные выставки</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="before-footer__social">Наши социальные сети:<span>Вконтакте, Youtube, Facebook, Instagram, Telegram, Twitter</span></p>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <div class="footer__about-site">
+                    <p>© 2021 Qwe</p>
+                    <p>При цитировании документа ссылка на сайт с указанием автора обязательна. Полное заимствование документа является нарушением
+                        российского и международного законодательства и возможно только с согласия редакции qwe.com.</p>
+                </div>
+                <p class="footer__years">18+</p>
+            </div>
+        </div>
+    </footer> 
     <script src="js/index.js"></script>
 </body>
 </html>
