@@ -1830,6 +1830,7 @@ li {
         max-width: 90%;
         margin: 0 auto;
         order: 2;
+        margin-top: 16px;
     }
     .intro {
         margin-top: 0; 
