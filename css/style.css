@@ -656,7 +656,7 @@ li {
     z-index: 2;
 }
 .topic__main {
-    background-image: url(../img/topic__bg.png);
+    background-image: url(../img/topic__bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -1049,7 +1049,7 @@ li {
     color: #000000
 }
 .last-records__image {
-    background-image: url(../img/last-records/last1.png);
+    background-image: url(../img/last-records/last1.jpg);
     width: 240px;
     height: 290px;
 }
@@ -1077,16 +1077,16 @@ li {
     margin-top: 16px;
 }
 .last2 {
-    background-image: url(../img/last-records/last2.png);
+    background-image: url(../img/last-records/last2.jpg);
 }
 .last3 {
-    background-image: url(../img/last-records/last3.png);
+    background-image: url(../img/last-records/last3.jpg);
 }
 .last4 {
-    background-image: url(../img/last-records/last4.png);
+    background-image: url(../img/last-records/last4.jpg);
 }
 .last5 {
-    background-image: url(../img/last-records/last5.png);
+    background-image: url(../img/last-records/last5.jpg);
 }
 .last-records__scroll {
     margin-top: 26px;
