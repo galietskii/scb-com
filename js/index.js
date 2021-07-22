@@ -10,3 +10,30 @@ const subMenu = document.querySelector('.records__submenu');
 function rollUpMenu() {
     subMenu.classList.toggle('records__close');
 }
+// ACARRDION POST ANSWERS
+const openAcc = document.querySelectorAll('.post__click');
+openAcc.forEach(function(el, index) {
+    el.addEventListener('click', function(ev){
+        const item = document.getElementById(index);
+        item.classList.toggle("panel__block");
+        })
+    })
+
+    // ACARDION MODULES
+let acc = document.getElementsByClassName("accordion");
+let i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("link__hover-none");
+    let uncover = this.nextElementSibling;
+    if (uncover.style.maxHeight){
+        uncover.style.maxHeight = null;
+    } else {
+        uncover.style.maxHeight = uncover.scrollHeight + "px";
+    } 
+
+  });
+}
+
+
