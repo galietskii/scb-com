@@ -95,6 +95,7 @@ li {
 
 /* NAVIGATION BLOCK */
 .nav {
+    display: block;
     padding: 14px 0;
     border-bottom: 1px solid #E8E8E8;
 }
@@ -1665,7 +1666,9 @@ li {
         margin-right: 15px;
         vertical-align: super;
     }
+   
     .nav {
+        display: block;
         background: #F7F7F7;
         padding: 1px 0;
     }
@@ -1676,7 +1679,9 @@ li {
         display: block;
         text-align: left;
     }
-
+    .nav-close {
+        display: none;
+    }
     .list {
         margin: 0 14px;
         margin-top: 14px;

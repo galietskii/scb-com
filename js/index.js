@@ -35,5 +35,13 @@ for (i = 0; i < acc.length; i++) {
 
   });
 }
-
+// mobile menu
+const mediaQuery = window.matchMedia('(max-width: 535px)');
+if (mediaQuery.matches) {
+    const burger = document.querySelector('.header-mobile').onclick = navigationCLose;
+    const nav = document.querySelector('.nav');
+    function navigationCLose() {
+        nav.classList.toggle('nav-close')
+    }
+}
 
