@@ -1950,6 +1950,7 @@ li {
    
     }
     .news__mask-mobile {
+        width: 100%;
         display: block;
         order: 4;
         margin-top: 10px;
