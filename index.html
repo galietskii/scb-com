@@ -195,8 +195,8 @@
 </ul>
                 </ul>
                 <div class="nav__search">
-                    <img class="nav__search" src="img/nav__search.svg" alt="search">
-                    <img class="nav__night" src="img/nav__night.svg" alt="night">
+                    <button type="button"><img class="nav__search" src="img/nav__search.svg" alt="search"></button>
+                    <button type="button"><img class="nav__night" src="img/nav__night.svg" alt="night"></button>
                 </div>
           </div>
         </div>
@@ -211,7 +211,10 @@
                     <a href="#" class="section__main__text-history">Историческое событие: Samsung выпустила в России смартфон на основе SoC Snapdragon 865</a>
                     <a href="#" class="section__main__text-company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого!</a>
                     <p>18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
-                    <button class="section__main__button-read">Читать далее <img src="img/main-right-arrow.svg" alt="right arrow"></button>
+                    <button class="section__main__button-read">Читать далее <svg class="button-line" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="button-line" d="M6.50002 0.166504L5.38377 1.28275L9.80127 5.70817H0.166687V7.2915H9.80127L5.38377 11.7169L6.50002 12.8332L12.8334 6.49984L6.50002 0.166504Z" fill="black"/>
+                        </svg>
+                        </button>
                 </div>
             </div>
         </div>
@@ -221,28 +224,28 @@
         <div class="container container__all">
             <div class="article__grid-item">
                 <div class="article__news-card">
-                    <img width="100%" src="img/articles/mountains.jpg" alt="mountains">
-                    <a class="section__main__text-news" href="#">Новости Hardware</a>
-                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событие: Samsung выпустила в России смартфон на основе SoC Snapdragon 865</a>
-                    <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
+                    <a href="#"><img width="100%" src="img/articles/mountains.jpg" alt="mountains"></a>
+                    <p class="section__main__text-news">Новости Hardware</p>
+                    <p class="section__main__text-history articles__history article__mobile-history" >Историческое событие: Samsung выпустила в России смартфон на основе SoC Snapdragon 865</p>
+                    <p class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</p>
                 </div>
                 <div class="article__news-card">
-                    <img width="100%" src="img/articles/mountains2.jpg" alt="mountains">
-                    <a class="section__main__text-news" href="#">Новости Software</a>
-                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событие: Samsung выпустила в России смартфон на</a>
-                    <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
+                    <a href="#"><img width="100%" src="img/articles/mountains2.jpg" alt="mountains"></a>
+                    <p class="section__main__text-news">Новости Software</p>
+                    <p class="section__main__text-history articles__history article__mobile-history">Историческое событие: Samsung выпустила в России смартфон на</p>
+                    <p  class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</p>
                 </div>
                 <div class="article__news-card">
-                    <img width="100%" src="img/articles/mountains3.jpg" alt="mountains">
-                    <a class="section__main__text-news" href="#">Новости Hardware</a>
-                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событие: Samsung выпустила</a>
-                    <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
+                    <a href="#"><img width="100%" src="img/articles/mountains3.jpg" alt="mountains"></a>
+                    <p class="section__main__text-news">Новости Hardware</p>
+                    <p class="section__main__text-history articles__history article__mobile-history">Историческое событие: Samsung выпустила</p>
+                    <p class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</p>
                 </div>
                 <div class="article__news-card">
-                    <img width="100%" src="img/articles/mountains4.jpg" alt="mountains">
-                    <a class="section__main__text-news" href="#">Новости Игр</a>
-                    <a class="section__main__text-history articles__history article__mobile-history" href="#">Историческое событи!</a>
-                    <a href="#" class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</a>
+                    <a href="#"><img width="100%" src="img/articles/mountains4.jpg" alt="mountains"></a>
+                    <p class="section__main__text-news">Новости Игр</p>
+                    <p class="section__main__text-history articles__history article__mobile-history">Историческое событи!</p>
+                    <p class="section__main__text-company article__company">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone.</p>
                 </div>
             </div>
         </div>
@@ -279,87 +282,87 @@
                 <div class="news__container">
                     <h2 class="news__title">Все Новости h2</h2>
                     <div class="news__block">
-                        <img class="news__mask" src="img/news/news__mask.jpg" alt="mask">
-                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
+                        <a href="#"><img class="news__mask" src="img/news/news__mask.jpg" alt="mask"></a>
+                        <a href="#"><img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                         <p class="news__time news__time-mobile">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                     </div>
                     <div class="news__block">
-                        <img  class="news__mask" src="img/news/news__mask2.jpg" alt="mask">
-                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
+                        <a href="#"><a href="#"><img  class="news__mask" src="img/news/news__mask2.jpg" alt="mask"></a>
+                        <a href="#"><img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
                     <div class="news__block">
-                        <img  class="news__mask" src="img/news/news__mask3.jpg" alt="mask">
-                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
+                        <a href="#"><img  class="news__mask" src="img/news/news__mask3.jpg" alt="mask"></a>
+                        <a href="#"><img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
                     <div class="news__block">
-                        <img  class="news__mask" src="img/news/news__mask4.jpg" alt="mask">
-                        <img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask">
+                        <a href="#"><img  class="news__mask" src="img/news/news__mask4.jpg" alt="mask"></a>
+                        <a href="#"><img class="news__mask-mobile" src="img/news/mobile1.svg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
                     <div class="news__block news__block-mobile">
-                        <img  class="news__mask" src="img/news/news__mask5.jpg" alt="mask">
+                        <a href="#"><img  class="news__mask" src="img/news/news__mask5.jpg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
                     <div class="news__block news__block-mobile">
-                        <img  class="news__mask" src="img/news/news__mask6.jpg" alt="mask">
+                        <a href="#"><img  class="news__mask" src="img/news/news__mask6.jpg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
                     <div class="news__block news__block-mobile">
-                        <img  class="news__mask" src="img/news/news__mask7.jpg" alt="mask">
+                        <a href="#"><img  class="news__mask" src="img/news/news__mask7.jpg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
                     <div class="news__block news__block-mobile">
-                        <img  class="news__mask" src="img/news/news__mask8.jpg" alt="mask">
+                        <a href="#"><img  class="news__mask" src="img/news/news__mask8.jpg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
                     </div>
                     <div class="news__block news__block-mobile">
-                        <img  class="news__mask" src="img/news/news__mask9.jpg" alt="mask">
+                        <a href="#"><img  class="news__mask" src="img/news/news__mask9.jpg" alt="mask"></a>
                         <div class="news__about">
-                            <a class="news__text-news" href="#">Новости Hardware</a>
-                            <a class="news__title-news" href="#">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                            <p class="news__text-news">Новости Hardware</p>
+                            <p class="news__title-news">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                             <p class="news__about__news">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагалось ответить на некоторые вопросы, связанные с сетями связи пятого.</p>
                             <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                         </div>
@@ -396,35 +399,35 @@
                     <div class="aside-news__first-block">
                         <h2 class="aside-news__title">Популярные новости h2</h2>
                         <div class="aside-news__item-event">
-                            <img src="img/aside/aside-news-1.jpg" alt="aside news">
+                            <a href="#"><img src="img/aside/aside-news-1.jpg" alt="aside news"></a>
                             <div class="aside-news__text">
                                <a href="#">Историческое событие: Samsung выпустила в России смартфон на основе SoC Snapdragon 865</a>
                                <p>14 Сентабря</p> 
                             </div>
                         </div>
                         <div class="aside-news__item-event">
-                            <img src="img/aside/aside-news-2.jpg" alt="aside news">
+                            <a href="#"><img src="img/aside/aside-news-2.jpg" alt="aside news"></a>
                             <div class="aside-news__text">
                                <a href="#">Историческое событие: Samsung выпустила в России смартфон на основе</a>
                                <p>13 Сентабря</p> 
                             </div>
                         </div>
                          <div class="aside-news__item-event">
-                            <img src="img/aside/aside-news-3.jpg" alt="aside news">
+                            <a href="#"><img src="img/aside/aside-news-3.jpg" alt="aside news"></a>
                             <div class="aside-news__text">
                                <a href="#">Историческое событие: Samsung выпустила</a>
                                <p>10 Сентабря</p> 
                             </div>
                         </div>
                          <div class="aside-news__item-event">
-                            <img src="img/aside/aside-news-4.jpg" alt="aside news">
+                            <a href="#"><img src="img/aside/aside-news-4.jpg" alt="aside news"></a>
                             <div class="aside-news__text">
                                <a href="#">Историческое событие: Samsung выпустила в России смартфон на основе</a>
                                <p>16 Сентабря</p> 
                             </div>
                          </div>
                          <div class="aside-news__item-event">
-                            <img src="img/aside/aside-news-5.jpg" alt="aside news">
+                            <a href="#"><img src="img/aside/aside-news-5.jpg" alt="aside news"></a>
                             <div class="aside-news__text">
                                <a href="#">Историческое событие: Samsung выпустила</a>
                                <p>19 Сентабря</p> 
@@ -491,7 +494,7 @@
                         <a href="#" class="intro__text-news">Новости Hardware</a>
                     </div>
                     <div class="intro__news-photo">
-                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                         <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
                         <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                     </div>
@@ -503,7 +506,7 @@
                         <a href="#" class="intro__text-news">Новости Hardware</a>
                     </div>
                     <div class="intro__news-photo">
-                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                         <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
                         <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                     </div>
@@ -515,7 +518,7 @@
                         <a href="#" class="intro__text-news">Новости Hardware</a>
                     </div>
                     <div class="intro__news-photo">
-                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                         <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
                         <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                     </div>
@@ -527,7 +530,7 @@
                         <a href="#" class="intro__text-news">Новости Hardware</a>
                     </div>
                     <div class="intro__news-photo">
-                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                         <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
                         <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                     </div>
@@ -539,7 +542,7 @@
                         <a href="#" class="intro__text-news">Новости Hardware</a>
                     </div>
                     <div class="intro__news-photo">
-                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                         <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
                         <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                     </div>
@@ -551,7 +554,7 @@
                         <a href="#" class="intro__text-news">Новости Hardware</a>
                     </div>
                     <div class="intro__news-photo">
-                        <a href="#" class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</a>
+                        <p class="intro__title__about">Рецензия на политический сериал The Comey Rule / «Правило Коми» в роли кто кого</p>
                         <p class="intro__description">Компания Global Wireless Solutions провела любопытное исследование, в рамках которого пользователям iPhone из США предлагось ответит …</p>
                         <p class="news__time">18 сентября, 10:49 <img src="img/main__oval.svg" alt="oval"> 12 452 просмотров</p>
                     </div>
@@ -585,24 +588,24 @@
             </div>
             <div class="all-news__cards">
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news1.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Процессоры</a>
-                    <a class="all-news__lesson" href="#">Как экономить воду. Курс РБК и «Осоки Высокой» — урок 6</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news1.jpg" alt=""></a>
+                    <p class="all-news__prcs">Процессоры</p>
+                    <p class="all-news__lesson">Как экономить воду. Курс РБК и «Осоки Высокой» — урок 6</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news2.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Видеокарты</a>
-                    <a class="all-news__lesson" href="#">MediaTek подвергает угрозу лидирующие позиции Qualcomm в смартфонах и планшетах</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news2.jpg" alt=""></a>
+                    <p class="all-news__prcs">Видеокарты</p>
+                    <p class="all-news__lesson">MediaTek подвергает угрозу лидирующие позиции Qualcomm в смартфонах и планшетах</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news3.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Оперативная память</a>
-                    <a class="all-news__lesson" href="#">CES 2014: инновационные технологии от компании MediaTek</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news3.jpg" alt=""></a>
+                    <p class="all-news__prcs">Оперативная память</p>
+                    <p class="all-news__lesson">CES 2014: инновационные технологии от компании MediaTek</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news4.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Оперативная память</a>
-                    <a class="all-news__lesson" href="#">Общественности представлено новое поколение жидкостных систем охлаждения от компании QuantaCool</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news4.jpg" alt=""></a>
+                    <p class="all-news__prcs">Оперативная память</p>
+                    <p class="all-news__lesson">Общественности представлено новое поколение жидкостных систем охлаждения от компании QuantaCool</p>
                 </div>
             </div>
             <div class="all-news__flex">
@@ -611,24 +614,24 @@
             </div>
             <div class="all-news__cards">
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news5.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Операционные системы</a>
-                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news5.jpg" alt=""></a>
+                    <p class="all-news__prcs">Операционные системы</p>
+                    <p class="all-news__lesson">Какие есть причины популярности немецких прокси</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news6.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Защита информации</a>
-                    <a class="all-news__lesson" href="#">Общественности представлено новое поколение жидкостных систем охлаждения от компании QuantaCool</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news6.jpg" alt=""></a>
+                    <p class="all-news__prcs">Защита информации</p>
+                    <p class="all-news__lesson">Общественности представлено новое поколение жидкостных систем охлаждения от компании QuantaCool</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news7.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Поисковые системы</a>
-                    <a class="all-news__lesson" href="#">CES 2014: инновационные технологии от компании MediaTek</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news7.jpg" alt=""></a>
+                    <p class="all-news__prcs">Поисковые системы</p>
+                    <p class="all-news__lesson">CES 2014: инновационные технологии от компании MediaTek</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news8.jpg" alt="">
-                    <a class="all-news__prcs" href="#">Операционные системы</a>
-                    <a class="all-news__lesson" href="#">CES 2014: инновационные технологии от компании MediaTek</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news8.jpg" alt=""></a>
+                    <p class="all-news__prcs">Операционные системы</p>
+                    <p class="all-news__lesson">CES 2014: инновационные технологии от компании MediaTek</p>
                 </div>
             </div>
             <div class="all-news__flex">
@@ -637,24 +640,24 @@
             </div>
             <div class="all-news__cards">
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news9.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">iOS 9.3 - Night Shift</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news9.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">iOS 9.3 - Night Shift</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news10.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">Магазин Fred Perry. Что в нем можно найти?</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news10.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">Магазин Fred Perry. Что в нем можно найти?</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news11.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси!</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news11.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">Какие есть причины популярности немецких прокси!</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news12.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news12.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</p>
                 </div>
             </div>
             <div class="all-news__flex">
@@ -663,24 +666,24 @@
             </div>
             <div class="all-news__cards">
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news13.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">iOS 9.3 - Night Shift</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news13.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">iOS 9.3 - Night Shift</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news14.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">Магазин Fred Perry. Что в нем можно найти?</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news14.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">Магазин Fred Perry. Что в нем можно найти?</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news15.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси!</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news15.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">Какие есть причины популярности немецких прокси!</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news16.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news16.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</p>
                 </div>
             </div>
             <div class="all-news__flex">
@@ -689,24 +692,24 @@
             </div>
             <div class="all-news__cards">
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news17.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">iOS 9.3 - Night Shift</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news17.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">iOS 9.3 - Night Shift</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news18.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">Магазин Fred Perry. Что в нем можно найти?</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news18.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">Магазин Fred Perry. Что в нем можно найти?</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news19.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">Какие есть причины популярности немецких прокси!</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news19.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">Какие есть причины популярности немецких прокси!</p>
                 </div>
                 <div class="all-news__card">
-                    <img width="100%" src="img/all-news/all-news20.jpg" alt="">
-                    <a class="all-news__prcs" href="#">CES 2014</a>
-                    <a class="all-news__lesson" href="#">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</a>
+                    <a href="#"><img width="100%" src="img/all-news/all-news20.jpg" alt=""></a>
+                    <p class="all-news__prcs">CES 2014</p>
+                    <p class="all-news__lesson">MWC 2014: Новый FordFocus с функцией MyKey и мультимедийным центром SYNC2</p>
                 </div>
             </div>
         </div>
@@ -1052,6 +1055,9 @@
                         <div class="post__answers-menu__flex post__click">
                             <div class="post__answers-link">🎁 Какие разделы сайта QWE наиболее популярные</div>
                             <img class="image__edit" src="img/post/post__down.svg" alt="down">
+                        </div>
+                        <div class="deployed__block panel" id="2">
+                            <p>Роботы-газонокосилки похожи на роботы-пылесосы. По крайней мере внешне. Внутри же они сильно отличаются. Газонокосилки используют двигатель, который работает от аккумулятора. Он снабжён режущими лезвиями, базовой станцией, проводом периметра и сенсорами, чтобы устройство не выехало куда не надо. Один конец провода подключён к терминалу на базовой станции. </p>
                         </div>
                     </div>
                 </div>
